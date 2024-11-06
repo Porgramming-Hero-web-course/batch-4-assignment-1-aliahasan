@@ -121,6 +121,7 @@ console.log(validateKeys(person, ["name", "age"]));
 // Sample Output:
 true;
 ```
+_Note: Please make sure to use the exact **function/property name** provided in the assignment.This will help us evaluate your solution smoothly._
 
 </br>
 </br>
