@@ -142,7 +142,7 @@ _Note:You will have to choose any **one** blog topic_
 
 ## Private Repogitory
 
-[https://classroom.github.com/a/xLyOULhz](https://classroom.github.com/a/xLyOULhz)
+[https://classroom.github.com/a/xLyOULhz](https://classroom.github.com/a/T1s-cspF)
 
 ### Instructions:
 
