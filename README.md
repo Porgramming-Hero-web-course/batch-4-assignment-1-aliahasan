@@ -129,7 +129,7 @@ _Note: Please make sure to use the exact **function/property name** provided in 
 </br>
 </br>
 
-## Blog Writing (anyone):
+## Blog Writing (any one):
 
 Write an impactful blog posts covering the following topics:
 
