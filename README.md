@@ -24,10 +24,11 @@ Create a TypeScript function removeDuplicates that accepts an array of numbers a
 
 ```tsx
 // Sample Input:
-removeDuplicates([1, 2, 2, 3, 4, 4, 5])[
-  // Sample Output:
-  (1, 2, 3, 4, 5)
-];
+removeDuplicates([1, 2, 2, 3, 4, 4, 5])
+
+// Sample Output:
+[1, 2, 3, 4, 5]
+
 ```
 
 ## Problem 3:
