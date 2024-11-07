@@ -16,5 +16,4 @@ function validateKeys(obj: Person, keys: (keyof Person)[]): boolean {
 
 const person = { name: "Alice", age: 25, email: "alice@example.com" };
 
-// Test case
-console.log(validateKeys(people, ["name", "age"])); // true
+const results = validateKeys(person, ["name", "age"]);
