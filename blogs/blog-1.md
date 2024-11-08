@@ -41,9 +41,12 @@ type Employee = {
 };
 
 type PersonEmployee = Person & Employee;
+```
+
 Here, PersonEmployee is an intersection type of Person and Employee. This means it must have all the properties from both types.
 
-// usage example
+```typescript
+// usage example of intersection types
 const personEmployee: PersonEmployee = {
   name: "Alice",
   age: 30,
