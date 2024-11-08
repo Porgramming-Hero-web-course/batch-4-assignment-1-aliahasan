@@ -18,7 +18,9 @@ function calculateShapeArea(shape: Circle | Rectangle): number {
   throw new Error("Invalid shape type");
 }
 
-const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
+const circleArea = Number(
+  calculateShapeArea({ shape: "circle", radius: 12 }).toFixed(2)
+);
 const rectangleArea = calculateShapeArea({
   shape: "rectangle",
   width: 4,
