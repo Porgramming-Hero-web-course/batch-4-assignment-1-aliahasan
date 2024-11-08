@@ -4,16 +4,13 @@ interface Person {
   email: string;
 }
 
-const people: Person = {
+function validateKeys<T extends object>(obj: T, keys: (keyof T)[]): boolean {
+  return keys.every((key) => key in obj);
+}
+const person: Person = {
   name: "Alice",
   age: 25,
   email: "alice@example.com",
 };
-
-function validateKeys(obj: Person, keys: (keyof Person)[]): boolean {
-  return keys.every((key) => Object.keys(obj).includes(key as string));
-}
-
-const person = { name: "Alice", age: 25, email: "alice@example.com" };
 
 const results = validateKeys(person, ["name", "age"]);
